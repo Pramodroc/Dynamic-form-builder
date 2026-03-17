@@ -1,0 +1,51 @@
+[
+  {
+    "fieldId": "name",
+    "label": "Full Name",
+    "fieldType": "text",
+    "hint": "Enter your full name",
+    "isRequired": true
+  },
+  {
+    "fieldId": "college_name",
+    "label": "College Name",
+    "fieldType": "text",
+    "hint": "Enter your college name",
+    "isRequired": true
+  },
+  {
+    "fieldId": "branch",
+    "label": "Branch",
+    "fieldType": "text",
+    "hint": "e.g. Computer Science",
+    "isRequired": true
+  },
+  {
+    "fieldId": "roll_no",
+    "label": "Roll Number",
+    "fieldType": "number",
+    "hint": "Enter your roll number",
+    "isRequired": true
+  },
+  {
+    "fieldId": "email",
+    "label": "Email Address",
+    "fieldType": "email",
+    "hint": "example@domain.com",
+    "isRequired": true
+  },
+  {
+    "fieldId": "gender",
+    "label": "Gender",
+    "fieldType": "dropdown",
+    "options": ["Male", "Female", "Other"],
+    "isRequired": true
+  },
+  {
+    "fieldId": "terms",
+    "label": "I agree to the terms and conditions",
+    "fieldType": "checkbox",
+    "isRequired": true,
+    "defaultValue": "false"
+  }
+]
